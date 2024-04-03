@@ -43,7 +43,7 @@ class Clear_bibliography(Wiki_pages):
         elif is_decompose:
             self.decompose_component(component)
         else:
-            print(f"Método '{component["method"]}' não localizado!")
+            print(f"Método '{component['method']}' não localizado!")
 
 
     def preprocess_component(func):
